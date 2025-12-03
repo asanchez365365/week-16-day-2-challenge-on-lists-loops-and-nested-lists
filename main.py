@@ -59,7 +59,7 @@ print(f"Last student's requested item: {last_student_item}")
 
 quantities_list = [request["quantity_requested"] for request in student_requests]
 
-print("3. Quantities List:")
+print("Quantities List:")
 print(quantities_list)
 
 ### 4. Order Size Analysis
