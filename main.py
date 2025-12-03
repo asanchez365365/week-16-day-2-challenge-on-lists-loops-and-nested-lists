@@ -71,7 +71,7 @@ print(quantities_list)
 
 print(" Order Size Analysis:")
 
-if any(q > 5 for q in quantities_list):
+if any(quantities_list)<=5:
     print("Large order detected!")
 else:
     print("Orders within normal limits.")
